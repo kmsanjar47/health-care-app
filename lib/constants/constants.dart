@@ -1,3 +1,6 @@
+import "package:flutter/material.dart";
+
 class Constants{
-  static String appName = "HealthCareApp";
+  static Text appName = const Text("HealthCareApp");
+  static Color primaryColor = Colors.greenAccent;
 }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:health_care_system/pages/sign_in_page.dart';
+import 'package:health_care_system/constants/constants.dart';
+import 'package:health_care_system/pages/dashboard_page.dart';
+
 
 void main() {
   runApp(const HealthApp());
@@ -11,8 +13,9 @@ class HealthApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      color: Constants.primaryColor,
       debugShowCheckedModeBanner: false,
-      home: SignInPage()
+      home: DashboardPage()
     );
   }
 }
